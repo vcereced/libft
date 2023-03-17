@@ -6,7 +6,7 @@
 /*   By: vcereced <vcereced@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 17:57:07 by vcereced          #+#    #+#             */
-/*   Updated: 2022/12/05 18:04:02 by vcereced         ###   ########.fr       */
+/*   Updated: 2023/02/14 02:02:05 by vcereced         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,6 @@
 int	ft_toupper(int c)
 {
 	if (c >= 97 && c <= 122)
-		return (c -= 32);
+		return (c - 32);
 	return (c);
 }
