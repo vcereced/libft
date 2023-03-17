@@ -6,17 +6,21 @@
 /*   By: vcereced <vcereced@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 14:43:41 by vcereced          #+#    #+#             */
-/*   Updated: 2023/03/17 20:47:59 by vcereced         ###   ########.fr       */
+/*   Updated: 2023/03/17 20:58:39 by vcereced         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# include "./ft_printft/ft_printf.h"
 # include <stddef.h>
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdarg.h>
+# include	<fcntl.h>
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 1
+# endif
 
 typedef struct s_list
 {
@@ -32,10 +36,17 @@ void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
-/*PRINTF*/
+/**************PRINTF***************/
 int		ft_printf(char const *fmt, ...);
 void	ft_putstr_printf(char *s, int *length);
 void	ft_putnbr_printf(long nbrl, char *base, int *len, char ptr);
+
+/*************GET_NEXT_LINE********/
+char	*get_next_line(int fd);
+char	*get_joint(const char *buffer, char *bufferstatic, char *str_jointed);
+size_t	get_strlen(const char *s);
+char	*get_strrchr(char *s, int c);
+char	*get_clean(char *bufferstatic, char *bufferstatic_cleaned, int i);
 
 
 int		ft_lstsize(t_list *lst);

@@ -6,11 +6,11 @@
 /*   By: vcereced <vcereced@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/19 21:24:53 by vcereced          #+#    #+#             */
-/*   Updated: 2022/12/20 20:08:19 by vcereced         ###   ########.fr       */
+/*   Updated: 2023/03/17 21:00:05 by vcereced         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 static void	ft_putchar_printf(char c, int *length)
 {
