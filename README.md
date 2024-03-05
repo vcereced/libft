@@ -1,12 +1,11 @@
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/logo.png">
+  <a>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/1200px-42_Logo.svg.png" alt="Logo" width="200" height="200">
   </a>
 
-  <h3 style="margin-top: 0; text-align: center;">42-Libft</h3>
-
-  <p align="center">
+  <p style="font-size: 20px; text-align: center;">
+    42-Libft <br>
     Project libft of 42 school
     <br />
 	</p>
@@ -21,7 +20,7 @@
 
 ## &#x1F4CC; Index 
 
-- [:construction\_worker: How to Run](#construction_worker-how-to-run)
+- [link](#✨ What is Libft?)
 - [Usage](#usage)
 
 ## &#x2728; What is Libft?
