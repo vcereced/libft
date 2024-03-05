@@ -4,7 +4,7 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/1200px-42_Logo.svg.png" alt="Logo" width="200" height="200">
   </a>
 
-  <p style="font-size: 20px; text-align: center;">
+  <p align="center">
     42-Libft <br>
     Project libft of 42 school
     <br />
@@ -20,8 +20,9 @@
 
 ## &#x1F4CC; Index 
 
-- [link](#✨ What is Libft?)
-- [Usage](#usage)
+- [List of Functions](#What-is-Libft?)
+- [Usage](#Usage)
+
 
 ## &#x2728; What is Libft?
 
