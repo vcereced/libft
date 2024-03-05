@@ -5,7 +5,7 @@
   </a>
 
   <p align="center">
-    42-Libft <br>
+    Libft <br>
     Project libft of 42 school
     <br />
 	</p>
