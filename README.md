@@ -20,8 +20,8 @@
 
 ## &#x1F4CC; Index 
 
-- [List of Functions](#What-is-Libft?)
-- [Usage](#Usage)
+- [List of Functions](#list-of-functions)
+- [Usage](#usage)
 
 
 ## &#x2728; What is Libft?
